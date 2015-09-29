@@ -12,6 +12,9 @@ a {
 
 .main-header {
 	font-size: 5em;
+	color: #fff;
+	font-weight: normal;
+	text-shadow: 5px 5px 7.5px #000;
 }
  
 /*********/
@@ -30,6 +33,7 @@ a {
 	align-items: center;
 	list-style: none;
 	padding: 0;
+	/*margin: -2em 0 4em;*/
 }
 
 .nav-bar li {
@@ -60,6 +64,7 @@ iframe {
 .main-container {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
